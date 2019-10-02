@@ -1,0 +1,17 @@
+﻿<Window x:Class="BellRingers.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Main Windown"
+        Height="350"
+        Width="525">
+    <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="378,74,0,0" VerticalAlignment="Top" Width="75" />
+        <Button Content="Button" Margin="0,0,0,0"
+        Name="button2"   Width="75" Height="23"/>
+        <Image Margin="0,0,0,0" Name="image1">
+            <Image.Source>
+                <BitmapImage UriSource="noel.jpg" />
+            </Image.Source>
+        </Image>
+    </Grid>
+</Window>
